@@ -1,0 +1,46 @@
+body {
+  box-sizing: borderbox; 
+  width: 100%;
+  text-align: center; 
+  height: 3000px;
+}
+
+#nav {
+  background-color: grey; 
+  position: fixed;
+  top:0;
+  width: 100%;
+  margin-bottom: 20px; 
+  }
+
+#left{
+  background-color: blue; 
+  float: left; 
+  width: 50%; 
+  height:  300px;
+  line-height: 250px; 
+  margin-top: 40px;
+}
+
+#right{
+  background-color: red; 
+  float: right; 
+  width: 25%; 
+  height: 300px; 
+  line-height: 250px; 
+  margin-top: 40px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
+#footer{
+  background-color: green;
+  position: fixed; 
+  bottom:0; 
+  width: 100%;
+}

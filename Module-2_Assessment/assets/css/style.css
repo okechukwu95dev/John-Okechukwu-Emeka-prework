@@ -1,0 +1,79 @@
+
+
+/**body general styling**/
+body{ 
+    width: 100%;
+    background: url('../images/background.png');
+    background-size: 100% 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: black; 
+    font-weight: bolder;
+}
+
+
+
+    
+/** styling for css my contain **/
+.my-contain {
+    width: 700px;   
+}
+/** styling for css game **/
+
+.game{
+    border: 2px solid black;
+}
+
+
+/** styling for image**/
+.fit-image{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+
+    
+}
+.fit-image2{
+    width: 200px;
+    height: 175px;
+    
+
+    
+}
+
+
+
+
+/** styling for css media query**/
+@media only screen and (max-width: 576px) {
+        
+    .my-contain
+    {
+        width: 100%;
+            
+        }
+
+    .navbar-toggler {
+        
+        background-color: #777777;
+        border: 1px solid #777777;
+        
+    }
+    
+
+
+
+    }
+
+
+
+    
+
+
+
+
+
+
+
+
+
+

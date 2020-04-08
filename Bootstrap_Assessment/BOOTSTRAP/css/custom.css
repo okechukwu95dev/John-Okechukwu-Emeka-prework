@@ -1,0 +1,30 @@
+
+small{
+    font-size: 10px; 
+}
+
+.jumbotron h1 {
+    font-size: 50px; 
+}
+
+.navbar{
+    padding-top: 0;
+    padding-left:0;
+}
+
+.bot {
+    background-color: #79b9c6;
+}
+
+@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333, text will be white and jumbotron width x0.5 to wrap text */
+    .bot {
+      background-color: #333;
+      color: white;
+      font-size: 120%;
+     }
+
+     .jumbotron {
+         width : 50%;
+     }
+    }
